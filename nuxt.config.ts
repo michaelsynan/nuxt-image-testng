@@ -7,22 +7,23 @@ import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
   target: 'static',
-  app: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000',
-    pageTransition: { name: 'page', mode: 'out-in' },
-    head: {
-      title: 'Nuxt Tailwind Template',
-      meta: [
-        { name: 'description', content: 'Speed up your Nuxt 3 and Vue development with this starter template.' }
-      ],
-    }
-  },
-  prerender: {
-    routes: [ process.env.BASE_URL || 'http://localhost:3000'],
-  },
+  // app: {
+   // baseURL: process.env.BASE_URL || 'http://localhost:3000',
+  //  pageTransition: { name: 'page', mode: 'out-in' },
+  //  head: {
+  //    title: 'Nuxt Tailwind Template',
+  //    meta: [
+   //     { name: 'description', content: 'Speed up your Nuxt 3 and Vue development with this starter template.' }
+   //   ],
+  //  }
+  // },
+  // prerender: {
+   // routes: [ process.env.BASE_URL || 'http://localhost:3000'],
+  // },
   modules: [
     '@pinia/nuxt',
-    ['unplugin-icons/nuxt', { autoInstall: true }]
+    ['unplugin-icons/nuxt', { autoInstall: true }],
+    '@nuxt/image-edge',
   ],
   pinia: {
     autoImports: [
