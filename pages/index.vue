@@ -6,12 +6,7 @@
       <div class="col-span-5">
         <h1>Nuxt Tailwind Template <span class="inline-block">w/ Pinia 🎉</span></h1>
       </div>
-      <div class="col-span-5 md:col-span-3">
-        <CallToAction />
-      </div>
-      <div class="col-span-5 md:col-span-2">
-        <PiniaComponent />
-      </div>
+      <nuxt-img src="/nuxt-tailwind-starter.png" />
       <div class="col-span-5 pt-2">
         <i-mdi-github style="color: white"
               class="text-2xl inline mr-3"  />
