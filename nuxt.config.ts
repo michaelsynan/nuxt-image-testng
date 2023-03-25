@@ -27,11 +27,11 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     ipx: {
-        dir: '/public',
+        dir: '/static',
     }
 },
 image: {
-    dir: 'public',
+    dir: '/static',
     provider: 'ipx',
 },
   pinia: {
