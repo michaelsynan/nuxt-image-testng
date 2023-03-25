@@ -32,7 +32,6 @@ export default defineNuxtConfig({
 },
 image: {
     dir: '/static',
-    provider: 'ipx',
 },
   pinia: {
     autoImports: [
