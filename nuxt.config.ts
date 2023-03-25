@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     ipx: {
-        dir: '../../public',
+        dir: '/public',
     }
 },
 image: {
