@@ -25,6 +25,14 @@ export default defineNuxtConfig({
     ['unplugin-icons/nuxt', { autoInstall: true }],
     '@nuxt/image-edge',
   ],
+  runtimeConfig: {
+    ipx: {
+        dir: '../../public',
+    }
+},
+image: {
+    dir: 'public',
+},
   pinia: {
     autoImports: [
       // automatically imports `defineStore`
